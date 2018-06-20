@@ -1,4 +1,4 @@
-def first_level(time)
+def level_one(time)
 if time>10.45
    puts "Get back to the common room!"
 else
@@ -6,4 +6,7 @@ else
   end
 end
 
-first_level(10)
+level_one(10)
+
+
+def level_two
